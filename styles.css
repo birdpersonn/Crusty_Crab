@@ -37,6 +37,7 @@ button {
 
 .logo {
     font-size: 24px;
+    font-weight: 900;
 }
 
 .hero {
@@ -125,4 +126,48 @@ h4 {
     font-weight: 400;
     align-self: flex-end;
     padding-right: 100px;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+}
+
+.cta-container {
+    background-color: #6D8DEE;
+    width: 80vw;
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.cta-btn {
+    background-color: transparent;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px
+}
+
+.cta-h {
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cta-p {
+    margin: 0px;
+    padding: 0px;
 }
