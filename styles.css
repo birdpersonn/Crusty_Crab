@@ -135,15 +135,16 @@ h4 {
 
 .cta-container {
     background-color: #6D8DEE;
-    width: 80vw;
+    width: 90vw;
     display: flex;
     height: 100px;
     justify-content: space-around;
     align-items: center;
     border-radius: 10px;
+    margin: 30px;
 }
 
-.cta-btn {
+button {
     background-color: transparent;
     color: white;
     width: 120px;
@@ -153,11 +154,17 @@ h4 {
     font-weight: 500;
 }
 
+button:hover {
+    transition: 0.3s;
+    background-color: white;
+    color: #AE92F6;
+}
+
 .cta-text {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     padding: 15px
 }
 
@@ -170,4 +177,14 @@ h4 {
 .cta-p {
     margin: 0px;
     padding: 0px;
+}
+
+.footer {
+    text-align: center;
+    margin:20px;
+}
+
+a:hover {
+    color: #AE92F6;
+    transition: 0.3s;
 }
