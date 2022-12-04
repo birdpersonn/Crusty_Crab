@@ -52,13 +52,17 @@ button {
 
 .hero-text {
     width: 450px;
+    justify-content: center;
+    margin-top: -30px;
 }
 
 .hero-img {
     background-color: beige;
+    object-fit: cover;
     width: 400px;
-    height: 200px;
+    height: 250px;
     flex-shrink: 0;
+    border: 1px solid white;
 }
 
 .menu {
@@ -91,10 +95,6 @@ button {
     align-items: center;
     text-align: center;
 }
-
-/* .item {
-    
-} */
 
 .item-img {
     width: 150px;
